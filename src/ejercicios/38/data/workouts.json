@@ -1,0 +1,11 @@
+[
+    {
+    "title": "Workout 1",
+    "routine": [
+        { "exercise": "Bridge", "img": "bridge", "reps": 15 },
+        { "exercise": "Back Extensions", "img": "backExtension", "reps": 15 },
+        { "exercise": "Bridge", "img": "bridge", "reps": 15 },
+        { "exercise": "Back Extensions", "img": "backExtension", "reps": 15 }
+    ]
+    }
+]
