@@ -1,38 +1,81 @@
-.App {
+/* Fondo general */
+body {
+  background: #f5f6fa;
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+/* Título principal */
+h1 {
   text-align: center;
+  margin-top: 30px;
+  font-size: 2.4rem;
+  color: #2d3436;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Contenedor principal */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Subtítulo */
+h2 {
+  color: #2d3436;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Botones del menú */
+.menu button {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 1rem;
+  background: #0984e3;
   color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.menu button:hover {
+  background: #74b9ff;
+  transform: scale(1.03);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Botón volver */
+.back-btn {
+  padding: 10px 18px;
+  background: #d63031;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: #ff7675;
+}
+
+/* Tarjetas para ejercicios */
+.exercise-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+/* Inputs globales */
+input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 2px solid #b2bec3;
+  border-radius: 6px;
+  margin: 5px;
 }
